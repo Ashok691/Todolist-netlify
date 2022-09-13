@@ -28,7 +28,7 @@ const handleInput = (e)=>{
 }
 
 const handleSubmit = (e) =>{
-  if(todoInput == '') return;
+  if(todoInput === '') return;
 
   setTodos(
     [{
