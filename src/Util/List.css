@@ -1,0 +1,23 @@
+.list-container{
+    max-width: 100vw;
+    /* word-wrap: break-word; */
+    overflow-x: scroll;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+.todo-input-form{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center ;
+}
+.todo-input-form input{
+    width: 60%;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.todo-input-form button{
+    height: 20px;
+    margin-top: 10px;
+    
+}

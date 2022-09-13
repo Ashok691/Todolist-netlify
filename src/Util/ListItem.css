@@ -1,0 +1,23 @@
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    background-color: white;
+    margin: 8px;
+    border-radius: 10px;
+}
+.todo-item p{
+    font-size: 20px;
+}
+.todo-item svg{
+    width: 30px;
+    padding-right: 10px;
+}
+svg:hover{
+    width: 40px;
+}
+/* .todo-item:hover{
+    background-color: rgb(20, 10, 51);
+    color: white;
+} */
